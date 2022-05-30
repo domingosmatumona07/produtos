@@ -1,11 +1,10 @@
 import React from "react";
-import "./HeaderStyle.css";
 import { Button } from "../ButtonStyled";
 
 export const Header = () => {
   return (
     <header>
-      <div className="buttonsContainer">
+      <div className="buttonsContainer" style={{ display: "flex", gap: "8px" }}>
         <Button>
           <a href="/notebook">notebook</a>
         </Button>
